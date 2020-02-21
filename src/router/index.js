@@ -1,8 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Gamepage from "../components/gamepage.vue"
+import Gamepage from "../components/gamepage.vue";
 import Room from "../views/Room.vue";
+import result from "../views/result.vue";
 
 Vue.use(VueRouter);
 
@@ -16,8 +17,13 @@ const routes = [
     path: "/Game",
     name: "GamePage",
     component: Gamepage
-  }, {
-
+  },
+  {
+    path: "/result",
+    name: "result",
+    component: result
+  },
+  {
     path: "/room",
     name: "Room",
     component: Room

@@ -13,21 +13,22 @@
 // import gamepage from './components/gamepage';
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     // gamepage,
   }
-}
+};
 </script>
 
 <style>
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   /* padding: 50em; */
+  background: white;
+  background-image: url('./assets/background.gif');
   background-position: center;
   color: #2c3e50;
   height: 1000px;
